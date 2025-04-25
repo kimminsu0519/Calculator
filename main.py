@@ -113,7 +113,8 @@ class CalculatorClass(QMainWindow, from_class):
             current_number = self.calculation_string[current_number_start:]
 
             if current_number.startswith('-'):  # 현재 숫자가 -로 시작하면 제거 (음수 → 양수)
-                self.calculation_string = (self.calculation_string[:current_number_start] + current_number[1:])
+                if '-' not in current_number[1:] and current_number[0] == '-':
+                    self.calculation_string = (self.calculation_string[:current_number_start] + current_number[1:])
             elif '-' in current_number:
                 pass
             else:
