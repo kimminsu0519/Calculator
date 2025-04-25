@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>512</width>
-    <height>799</height>
+    <width>406</width>
+    <height>657</height>
    </rect>
   </property>
   <property name="palette">
@@ -50,14 +50,28 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">font: 700 20pt &quot;Ubuntu Mono&quot;;</string>
+  </property>
   <widget class="QPushButton" name="pushButton_mod">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>250</y>
-     <width>81</width>
-     <height>81</height>
+     <x>210</x>
+     <y>200</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>%</string>
@@ -66,11 +80,22 @@
   <widget class="QPushButton" name="pushButton_sign">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>250</y>
-     <width>81</width>
-     <height>81</height>
+     <x>120</x>
+     <y>200</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>±</string>
@@ -80,10 +105,21 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>250</y>
-     <width>81</width>
-     <height>81</height>
+     <y>200</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>AC</string>
@@ -92,11 +128,19 @@
   <widget class="QPushButton" name="pushButton_9">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>360</y>
-     <width>81</width>
-     <height>81</height>
+     <x>210</x>
+     <y>290</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Mono</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
    </property>
    <property name="text">
     <string>9</string>
@@ -106,10 +150,21 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>360</y>
-     <width>81</width>
-     <height>81</height>
+     <y>290</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>7</string>
@@ -118,11 +173,22 @@
   <widget class="QPushButton" name="pushButton_8">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>360</y>
-     <width>81</width>
-     <height>81</height>
+     <x>120</x>
+     <y>290</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>8</string>
@@ -131,11 +197,22 @@
   <widget class="QPushButton" name="pushButton_div">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>250</y>
-     <width>81</width>
-     <height>81</height>
+     <x>300</x>
+     <y>290</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>/</string>
@@ -144,11 +221,22 @@
   <widget class="QPushButton" name="pushButton_mul">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>360</y>
-     <width>81</width>
-     <height>81</height>
+     <x>300</x>
+     <y>380</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>X</string>
@@ -157,11 +245,22 @@
   <widget class="QPushButton" name="pushButton_6">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>470</y>
-     <width>81</width>
-     <height>81</height>
+     <x>210</x>
+     <y>380</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans Mono</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 20pt &quot;Ubuntu Sans Mono&quot;;</string>
    </property>
    <property name="text">
     <string>6</string>
@@ -170,11 +269,22 @@
   <widget class="QPushButton" name="pushButton_plus">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>580</y>
-     <width>81</width>
-     <height>81</height>
+     <x>300</x>
+     <y>560</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>+</string>
@@ -184,10 +294,21 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>470</y>
-     <width>81</width>
-     <height>81</height>
+     <y>380</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans Mono</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 20pt &quot;Ubuntu Sans Mono&quot;;</string>
    </property>
    <property name="text">
     <string>4</string>
@@ -196,24 +317,46 @@
   <widget class="QPushButton" name="pushButton_sub">
    <property name="geometry">
     <rect>
-     <x>390</x>
+     <x>300</x>
      <y>470</y>
-     <width>81</width>
-     <height>81</height>
+     <width>71</width>
+     <height>71</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
+   </property>
    <property name="text">
-    <string>ㅡ</string>
+    <string>-</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>470</y>
-     <width>81</width>
-     <height>81</height>
+     <x>120</x>
+     <y>380</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>5</string>
@@ -223,10 +366,21 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>580</y>
-     <width>81</width>
-     <height>81</height>
+     <y>470</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>1</string>
@@ -235,11 +389,22 @@
   <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>580</y>
-     <width>81</width>
-     <height>81</height>
+     <x>210</x>
+     <y>470</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans Mono</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 20pt &quot;Ubuntu Sans Mono&quot;;</string>
    </property>
    <property name="text">
     <string>3</string>
@@ -248,11 +413,22 @@
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>580</y>
-     <width>81</width>
-     <height>81</height>
+     <x>120</x>
+     <y>470</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>2</string>
@@ -261,11 +437,22 @@
   <widget class="QPushButton" name="pushButton_equal">
    <property name="geometry">
     <rect>
-     <x>390</x>
-     <y>690</y>
-     <width>81</width>
-     <height>81</height>
+     <x>210</x>
+     <y>560</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans Mono</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 20pt &quot;Ubuntu Sans Mono&quot;;</string>
    </property>
    <property name="text">
     <string>=</string>
@@ -274,11 +461,22 @@
   <widget class="QPushButton" name="pushButton_dot">
    <property name="geometry">
     <rect>
-     <x>150</x>
-     <y>690</y>
-     <width>81</width>
-     <height>81</height>
+     <x>120</x>
+     <y>560</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>.</string>
@@ -288,10 +486,21 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>690</y>
-     <width>81</width>
-     <height>81</height>
+     <y>560</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>20</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>0</string>
@@ -300,11 +509,22 @@
   <widget class="QPushButton" name="pushButton_clear">
    <property name="geometry">
     <rect>
-     <x>270</x>
-     <y>690</y>
-     <width>81</width>
-     <height>81</height>
+     <x>300</x>
+     <y>200</y>
+     <width>71</width>
+     <height>71</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Ubuntu Sans</family>
+     <pointsize>15</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 15pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string>⌫</string>
@@ -314,8 +534,8 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>120</y>
-     <width>441</width>
+     <y>90</y>
+     <width>341</width>
      <height>81</height>
     </rect>
    </property>
@@ -358,11 +578,17 @@
    </property>
    <property name="font">
     <font>
-     <pointsize>25</pointsize>
+     <family>Ubuntu Sans</family>
+     <pointsize>30</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
     </font>
    </property>
    <property name="layoutDirection">
     <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 30pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string/>
@@ -375,8 +601,8 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>60</y>
-     <width>441</width>
+     <y>30</y>
+     <width>341</width>
      <height>51</height>
     </rect>
    </property>
@@ -419,6 +645,9 @@
    </property>
    <property name="layoutDirection">
     <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 600 20pt &quot;Ubuntu Sans&quot;;</string>
    </property>
    <property name="text">
     <string/>
