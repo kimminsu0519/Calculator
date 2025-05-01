@@ -85,3 +85,8 @@ python main.py
 - 수정 가능한 수식 입력창 : QLineEdit를 편집 가능하게 설정해, 수식 중간 수정 및 커서 이동 지원
 
 ---
+
+## PPT 자료
+https://docs.google.com/presentation/d/1HG8v9j3796RzEXXeCUr-NhTu969aF9RtV8iGemp1zZk/edit?usp=sharing
+
+---
